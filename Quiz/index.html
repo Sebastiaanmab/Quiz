@@ -1,3 +1,44 @@
-index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home pagina</title>
 
-<h1>Spiderman</h1>
+    <link rel="stylesheet" href="src/css/index.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+<div class="header">
+
+    <div class="logo">
+    <img src="src/img/logo.jpg" alt="logo">
+    <script src="src/js/index.js"></script>
+    </div>
+</div>
+
+<ul class="dropdown">
+    <li><a href="index.html">Home</a></li>
+    <li><a onclick="Scroll()">Quizzen</a></li>
+</ul>
+<div class="red">
+  <video style="width:100%" controls autoplay muted loop>
+    <source src="src/img/Trailer.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>    
+  </div>
+  <div class="kopje"><h1>QUIZZEN</h1></div>
+<div class="container">
+    <div class="div1"> 
+      <div class="div2"><a href="src/html/Quiz1.html"><button id="button1">Quiz 1</button></a>
+      </div>
+    </div>
+    <div class="div1">
+      <div class="div2"><a href="src/html/Quiz2.html"><button id="button1">Quiz 2</button></a>
+      </div>
+    </div>
+    <div class="div1"> 
+      <div class="div2"><a href="src/html/Quiz3.html"><button id="button1">Quiz 3</button></a>
+      </div>
+    </div>
+</div>
+</body>
+</html>
