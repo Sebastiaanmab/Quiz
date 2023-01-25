@@ -1,89 +1,21 @@
-function check(){
+let goed = 0;
+let count = 1;
 
-   
+function check() {
 
-            
+while (count < 11){
+    let vraag ='vraag' + count;
+      count++;
 
-            let Goed = 0;
+    if (document.getElementById(vraag).checked) {goed++;}    
 
-            result = document.getElementById('result');
+    console.log(goed)
+    console.log(vraag)
+}
 
+let naam = document.getElementById('text').value;
+let cijfer = goed * 10;
 
-
-                if (document.getElementById('symptom').checked) {
-
-                    Goed++;
-
-                }
-
-                if (document.getElementById('symptom1').checked) {
-
-                    Goed++;
-
-                }
-
-                if (document.getElementById('symptom2').checked) {
-
-                    Goed++;
-
-                }
-
-                if (document.getElementById('symptom3').checked) {
-
-                    Goed++;
-
-                }
-
-                if (document.getElementById('symptom4').checked) {
-
-                    Goed++;
-
-                }
-
-                if (document.getElementById('symptom5').checked) {
-
-                    Goed++;
-
-                }
-
-                if (document.getElementById('symptom6').checked) {
-
-                    Goed++;
-
-                }
-
-                if (document.getElementById('symptom7').checked) {
-
-                    Goed++;
-
-                }
-
-                if (document.getElementById('symptom8').checked) {
-
-                    Goed++;
-
-                }
-
-                if (document.getElementById('symptom9').checked) {
-
-                    Goed++;
-
-                }
-
-                let numSymptoms = Goed * 10;
-
-
-
-                if (Goed >= 1000) {
-
-                    result.innerHTML = 'Alles Goed';
-
-                } else {
-
-                    result.innerHTML = 'Resultaat: ' + numSymptoms + '%';
-
-                }
-
-                return false;
+result.innerHTML = naam + ' je resultaat = ' + cijfer + '%';
 
 }
