@@ -1,1 +1,39 @@
-index.css
+body {
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    background-image: url("../img/Backgroundp.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color: rgb(183, 183, 220);
+}
+#result{
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section {
+
+   justify-content: center;
+   border-radius: 3%;
+   background-color: rgb(255, 255, 255);
+   padding: 50px 100px 100px 100px;
+   margin-left: 20%;
+   margin-right: 20%;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   opacity: 0.85;
+   text-align: center;
+}
+.center{
+    text-align: center;
+}
+
+.top {
+    text-align: center;
+    margin: 10px;
+    font-size: xx-large;
+}
+footer{
+    margin-top: 50px;
+    text-align: center;
+}
