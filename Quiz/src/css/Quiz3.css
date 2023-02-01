@@ -2,7 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     justify-content: center;
-    background-image: url("../img/Backgroundp.jpg");
+    background-image: url("../img/foto1.jpg");
     background-attachment: fixed;
     background-size: 100%;
     background-color: rgb(183, 183, 220);
@@ -36,4 +36,8 @@ section {
 footer{
     margin-top: 50px;
     text-align: center;
+}
+
+#joi{
+   text-align: center;
 }
