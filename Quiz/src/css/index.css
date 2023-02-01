@@ -109,10 +109,21 @@ body {
 .div2 {
     margin: 0;
     padding: 30px;
-    width: 300px;
-    height: 300px;
+    width: 310px;
     border-radius: 15px;
     background: #222;
+}
+.div11 {
+    margin: 0px;
+    min-width: 300px;
+    max-width: 310px;
+    height: 360px;
+    border: #222 5px solid;
+    padding: 30px 30px 30px 30px;
+    color: aliceblue;
+    border-radius: 15px;
+    background-color: rgb(170, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #button1{
   height: 300px;
